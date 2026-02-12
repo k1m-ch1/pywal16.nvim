@@ -305,7 +305,8 @@ M.highlights_base = function(colors)
     SnacksPickerFile = { fg = colors.foreground },
     SnacksPickerDirectory = { fg = colors.color5 },
     SnacksPickerGitStatusUntracked = { fg = colors.color8 },
-    SnacksPickerGitStatusIgnored = { fg = colors.color5 },
+    SnacksPickerGitStatusIgnored = { fg = colors.color8 },
+    SnacksPickerPathIgnored = { fg = colors.color8 },
     SnacksPickerDir = { fg = colors.color5 },
     --SnacksPickerGitStatusModified = { fg = colors.color5 },
   }
